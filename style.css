@@ -1,0 +1,104 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+    /* Color Palette */
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --accent-color: #28a745;
+    --background-color: #f8f9fa;
+    --text-color: #212529;
+
+    /* Spacing Scale (Multiples of 8px) */
+    --spacing-8: 8px;
+    --spacing-16: 16px;
+    --spacing-24: 24px;
+    --spacing-32: 32px;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: var(--spacing-16);
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-16);
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-16);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-16);
+}
+
+h4 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-8);
+}
+
+h5 {
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-8);
+}
+
+h6 {
+    font-size: 1rem;
+    margin-bottom: var(--spacing-8);
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: var(--spacing-16);
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+/* Header */
+header {
+    background: var(--primary-color);
+    color: #fff;
+    padding: var(--spacing-16);
+    text-align: center;
+}
+
+/* Main Section */
+main {
+    padding: var(--spacing-24);
+}
+
+/* Footer */
+footer {
+    background: var(--secondary-color);
+    color: #fff;
+    text-align: center;
+    padding: var(--spacing-16);
+    margin-top: var(--spacing-24);
+}
